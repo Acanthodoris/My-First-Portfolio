@@ -1,0 +1,108 @@
+/* css reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* sets the background color to off white */
+body {
+    background-color: #95a9ac;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* sets font family, backgorund color, and font color */
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    background-color: #153c47;
+    color: #153c47;
+}
+
+/* sets text to top of the page and sets font size */
+h1 {
+    width: 420px;
+    padding-right: 20px;
+    text-align: right;
+    display: inline-block;
+    font-size: 48px;
+    background-color: #c0aaaa;
+}
+
+/* defines margins of header, and sets font family and font size */
+nav {
+    margin-right: -60px;
+    float: right;
+    font-size: 16px;
+    color: #153c47;
+}
+
+/* removes dots from header list  */
+#no-dots {
+    list-style-type: none;
+    padding-right: 60px;
+}
+
+/* defines top header */
+.nav-list {
+    width: 95px;
+    height: 34px;
+    display: inline-block;
+    border-bottom: 3px solid #c0aaaa;
+    text-align: center;
+}
+
+/* sets color, adds padding, removes any text decoration  */
+.hyperlink-fix {
+    color: #c0aaaa;
+    text-decoration: none;
+    padding-bottom: 4px;
+}
+
+/* sets main image size, margin, and postion */
+.banner {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 0px;
+    background-image: url("./assets/rubybeach.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+
+/* defines subtitle box */
+.subtitle {
+    display: inline;
+    background-color: #c0aaaa;
+    color: #153c47;
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    float: right;
+    margin-right: 60px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+/* defines top header */
+li {
+    display: inline-block;
+    margin-left: 100px;
+    width: 260px;
+    height: 40px;
+    border-bottom: 3px solid #153c47;
+    text-align: center;
+}
+
+/* sets color and removes any text decoration  */
+a {
+    color: #153c47;
+    text-decoration: none;
+    padding-bottom: 4px;
+}
