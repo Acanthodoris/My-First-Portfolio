@@ -32,7 +32,6 @@ h1 {
 
 /* defines margins of header, and sets font family and font size */
 nav {
-    margin-right: -60px;
     float: right;
     font-size: 16px;
     color: #153c47;
@@ -62,6 +61,8 @@ nav {
 
 /* sets main image size, margin, and postion */
 .banner {
+    display: flex;
+    flex-flow: row-reverse wrap-reverse;
     height: 200px;
     width: 100%;
     margin-bottom: 0px;
@@ -73,16 +74,56 @@ nav {
 /* defines subtitle box */
 .subtitle {
     display: inline;
+    font-size: x-large;
+    font-weight: 999;
     background-color: #c0aaaa;
     color: #153c47;
-    width: 300px;
-    padding: 10px 10px 10px 10px;
-    float: right;
+    height: 40%;
+    width: 25%;
+    padding: 25px 10px 10px 10px;
     margin-right: 60px;
+    margin-bottom: 12px;
     text-align: center;
 }
 
-ul {
+section {
+    display: inline-flex;
+    
+}
+
+h2 {
+    width: 50%
+}
+
+.workbox {
+height: 200px;
+width: 600px;
+padding: 20px;
+}
+
+#surf {
+background-image: url("./assets/surf-report.jpg");
+
+}
+
+#led {
+background-image: url("./assets/led-wall.jpeg");
+}
+
+#cal {
+background-image: url("./assets/Calculator.jpg");
+}
+
+#pastel {
+background-image: url("./assets/pastel-pretzels.png");
+}
+
+#run {
+background-image: url("./assets/run-buddy.jpg");
+}
+
+
+.footcontacts {
     list-style-type: none;
     padding-top: 15px;
     margin-right: 20px;
@@ -91,17 +132,17 @@ ul {
 }
 
 /* defines top header */
-li {
+.contact-options {
     display: inline-block;
     margin-left: 100px;
     width: 260px;
     height: 40px;
-    border-bottom: 3px solid #153c47;
+    border-bottom: 2px solid #153c47;
     text-align: center;
 }
 
 /* sets color and removes any text decoration  */
-a {
+.contact {
     color: #153c47;
     text-decoration: none;
     padding-bottom: 4px;
