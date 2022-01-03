@@ -115,6 +115,7 @@ p {
     padding: 30px;
 }
 
+/* sets up boxes placement */
 .hausofworkbox {
     width: 1455px;
     display: flex;
@@ -122,7 +123,7 @@ p {
     justify-content: center;
     padding: 30px;
 }
-
+/* defines larger box in work section */
 .bigworkbox {
     display: flex;
     flex-wrap: wrap-reverse;
@@ -133,6 +134,7 @@ p {
     opacity: 0.2;
 }
 
+/* defines msaller boxes in work section  */
 .workbox {
     display: flex;
     flex-wrap: wrap-reverse;
@@ -144,12 +146,14 @@ p {
     opacity: 0.2;
 }
 
+/* adds background color to text box */
 .wbtext {
     background-color: #c7999c;
     height: 80px;
     width: 185px;
 }
 
+/* set background image removes hyperlink line */
 #surf {
     background-image: url("./assets/surf-report.jpg");
     color:#2d3c48;
@@ -157,46 +161,55 @@ p {
 
 }
 
+/* set background image removes hyperlink line */
 #led {
     background-image: url("./assets/led-wall.jpeg");
     color:#2d3c48;
     text-decoration: none;
 }
 
+/* set background image removes hyperlink line */
 #cal {
     background-image: url("./assets/Calculator.jpg");
     color:#2d3c48;
     text-decoration: none;
 }
 
+/* set background image removes hyperlink line */
 #pastel {
     background-image: url("./assets/pastel-pretzels.png");
     color:#2d3c48;
     text-decoration: none;
 }
 
+/* set background image removes url line */
 #run {
     background-image: url("./assets/run-buddy.jpg");
     color:#2d3c48;
     text-decoration: none;
 }
 
+ /* on hover removes opacity */
 #surf:hover {
     opacity: 1.0;
 }
 
+ /* on hover removes opacity */
 #led:hover {
     opacity: 1.0;
 }
 
+ /* on hover removes opacity */
 #cal:hover {
     opacity: 1.0;
 }
 
+ /* on hover removes opacity */
 #pastel:hover {
     opacity: 1.0;
 }
 
+ /* on hover removes opacity */
 #run:hover {
     opacity: 1.0;
 }
@@ -207,7 +220,7 @@ footer {
    
 }
 
-.footcontacts {
+#footcontacts {
     width: 1600px;
     list-style-type: none;
     padding-top: 15px;
