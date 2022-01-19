@@ -112,7 +112,7 @@ h2 {
 }
 
 p {
-    padding: 30px;
+    padding: 31px;
 }
 
 /* sets up boxes placement */
@@ -149,8 +149,8 @@ p {
 /* adds background color to text box */
 .wbtext {
     background-color: #c7999c;
-    height: 80px;
-    width: 185px;
+    height: 85px;
+    width: 210px;
 }
 
 /* set background image removes hyperlink line */

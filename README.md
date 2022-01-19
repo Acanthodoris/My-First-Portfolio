@@ -24,3 +24,4 @@ https://www.w3schools.com/csSref/css3_pr_opacity.asp
 https://www.w3schools.com/csSref/sel_hover.asp
 https://www.w3schools.com/css/css_image_transparency.asp
 https://imagecolorpicker.com/
+https://stackoverflow.com/questions/7064998/how-to-make-a-link-open-multiple-pages-when-clicked
